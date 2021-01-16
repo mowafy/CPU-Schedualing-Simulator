@@ -1,0 +1,36 @@
+.gantt-base{
+    display: inline-block;
+    margin-bottom: 2px;
+    margin-right: 2px;
+    text-align: center;
+    color: white;
+    padding: 15px 0;
+}
+$colors: transparent #9C0000 darkgreen #505050 #171515 #0000E6 #40A800 #720E9E #c45608 #634d40;
+@for $i from 0 through 9 {
+    .gantt-sm-#{$i} {
+        @extend .gantt-base;
+        background-color: nth($colors, $i+1);
+        height: 50px;
+        width: 12px;
+    }
+    .gantt-lg-#{$i} {
+        @extend .gantt-base;
+        background-color: nth($colors, $i+1);
+        height: 55px;
+        width: 20px;
+    }
+}
+
+.border{
+    border: 2px solid darkgray;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    background-color: rgb(251,251,251);
+    min-height: 105px;
+}
+
+.ttable{
+    margin: 0;
+    font-size: 14px;
+}
