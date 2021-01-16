@@ -1,5 +1,7 @@
 # CPU Schedualing Simulator
 
+## Try it online: [app](https://mowafy.github.io/CPU-Schedualing-Simulator/)
+
 Written in Typescript & Angular
 Track 6 CPU schedualing algorithms step by step.
 
