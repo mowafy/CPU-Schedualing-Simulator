@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "CPU-Schedualing-Simulator"
+  "defaultProject": "CPU-Schedualing-Simulator",
+  "cli": {
+    "analytics": "85831fd6-94a7-4e73-bbc7-b5c3b8d511b3"
+  }
 }
